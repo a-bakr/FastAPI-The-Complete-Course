@@ -21,3 +21,9 @@ dependencies = [
     "sqlalchemy>=2.0.45",
     "uvicorn>=0.40.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.8.0",
+    "notebook>=7.5.1",
+]
